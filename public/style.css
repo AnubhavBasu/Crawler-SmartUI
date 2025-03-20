@@ -1,0 +1,100 @@
+/* public/style.css */
+
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Container for the form and results */
+.container, .results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Form styling */
+form {
+    background: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background: #2c2c2c;
+    color: #e0e0e0;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+fieldset {
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+/* Inline labels for checkboxes */
+.inline-label {
+    display: inline;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background: #6200ee;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    input[type="submit"]:hover {
+        background: #3700b3;
+    }
+
+/* Results page styles */
+.results-container p {
+    text-align: center;
+}
+
+.results-container pre {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    color: #e0e0e0;
+}

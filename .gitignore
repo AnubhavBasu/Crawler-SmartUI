@@ -1,0 +1,8 @@
+.vs
+node_modules/
+.smartui.log
+.smartui.json
+urls.json
+package-lock.json
+results.json
+urls_with_titles.txt
